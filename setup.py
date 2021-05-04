@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
     name='pyeqn',
-    url='https://github.com/jladan/package_demo',
+    url='https://gitlab.corp.isotropicsystems.com:software/pyeqn.git',
     author='Jeremy Turpin',
     author_email='jeremy@isotropicsystems.com',
     # Needed to actually package something
