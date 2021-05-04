@@ -132,6 +132,8 @@ class Eqn:
         return self.__class__(self.lhs.expand(),self.rhs.expand())
     def collect(self,*args):
         return self.__class__(self.lhs.collect(*args),self.rhs.collect(*args))
+    def diff(self,*args):
+        return self.__class(sym.diff(self.lhs,*args),sym.diff(self.rhs,*args))
     def to_octave(self):        
         l=sym.octave_code(self.lhs)
         r=sym.octave_code(self.rhs)
