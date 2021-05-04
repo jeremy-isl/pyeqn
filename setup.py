@@ -16,5 +16,5 @@ setup(
     license='proprietary',
     description='Provides the Eqn class that represents an symbolic equation (i.e., two expressions separated by an equality) that can be manipulated as a single object using sympy',
     # We will also need a readme eventually (there will be a warning)
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
 )
