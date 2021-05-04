@@ -6,6 +6,17 @@ This allows the algebra to be handled by Sympy, while the decision for which ste
 
 When equations are added to an EqnSet, then the EqnSet allows for pretty-printing, equation numbering, and number- or name-based references to previous equations. 
 
+Install as:
+```bash
+pip install git+ssh://git@gitlab.corp.isotropicsystems.com/software/pyeqn.git#egg=pyeqn
+```
+
+Import as:
+```python
+from pyeqn.pyeqn import Eqn, EqnSet, EqnType
+```
+
+
 ```python
 def Eqn_example():
 	pi,lam = sym.symbols('pi lambda_0')
