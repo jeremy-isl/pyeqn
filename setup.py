@@ -3,9 +3,9 @@ from setuptools import setup
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
     name='pyeqn',
-    url='https://gitlab.corp.isotropicsystems.com:software/pyeqn.git',
-    author='Jeremy Turpin',
-    author_email='jeremy@isotropicsystems.com',
+    url='https://github.com/jeremy-isl/pyeqn.git',
+    author='jeremy-isl',
+    author_email='j@i.co',
     # Needed to actually package something
     packages=['pyeqn'],
     # Needed for dependencies

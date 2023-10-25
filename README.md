@@ -8,7 +8,7 @@ When equations are added to an EqnSet, then the EqnSet allows for pretty-printin
 
 Install as:
 ```bash
-pip install git+ssh://git@gitlab.corp.isotropicsystems.com/software/pyeqn.git#egg=pyeqn
+pip install git+ssh://git@github.com/jeremy-isl/pyeqn.git#egg=pyeqn
 ```
 
 Import as:
